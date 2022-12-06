@@ -1,0 +1,57 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.main{
+    background-color: rgb(29, 29, 29);
+    padding: 10px 20px 10px 20px;
+}
+.Logo{
+    background-color: rgb(212, 212, 212);
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.Nav{
+    background-color: rgb(143, 143, 143);
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.Header{
+    
+    background-color: rgb(111, 111, 111);
+    text-align: center;
+    margin-bottom: 20px;
+    height: 100px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Sidebar{
+    background-color: rgb(199, 199, 199);
+    margin-right: 25px;
+    height: 500px;
+    text-align: center;
+
+    display: block;
+    flex: 1; 
+    justify-content: center;
+}
+.Bodyarea{
+    text-align: center;
+    background-color: rgb(184, 184, 184);
+    display: block;
+    flex: 2; 
+}
+.Footer{
+    padding: 10px;
+    background-color: rgb(57, 57, 57);
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+
+}
